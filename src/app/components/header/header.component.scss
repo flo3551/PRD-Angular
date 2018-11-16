@@ -1,0 +1,9 @@
+.img-box {
+    display: grid;
+    height: 100%;
+    .img-header {
+        max-width: 100% !important;
+        max-height: 100vh;
+        margin: auto;
+    }
+}
