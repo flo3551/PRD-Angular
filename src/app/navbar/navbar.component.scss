@@ -1,3 +1,9 @@
-app-navbar {
+.navbar {
     background-color: #6610f2ba;
+}
+.nav-item {
+    padding: 0 20px 0 20px;
+    .nav-link {
+        font-size: 21px !important;
+    }
 }

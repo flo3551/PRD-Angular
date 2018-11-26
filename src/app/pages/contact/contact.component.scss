@@ -1,22 +1,13 @@
 .row-block-infos {
     div.block-infos {
         padding: 2%;
-        height: 25vh;
+        height: 20vh;
         justify-content: center;
         border-right: #ccd1da 1px ridge;
         border-bottom: #ccd1da 1px ridge;
         background-color: #e3e8f1;
         .svg-block img {
             height: 7vh;
-            &:hover {
-                // filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
-                -webkit-transform: rotate(45deg);
-                -moz-transform: rotate(45deg);
-                -ms-transform: rotate(45deg);
-                -o-transform: rotate(45deg);
-                transform: rotate(45deg);
-                display: inline-block;
-            }
         }
         .label-block-infos {
             font-size: 120%;
@@ -26,15 +17,6 @@
     div.block-infos:hover {
         .svg-block img {
             height: 9vh;
-            &:hover {
-                // filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
-                -webkit-transform: rotate(45deg);
-                -moz-transform: rotate(45deg);
-                -ms-transform: rotate(45deg);
-                -o-transform: rotate(45deg);
-                transform: rotate(45deg);
-                display: inline-block;
-            }
         }
         .label-block-infos {
             font-size: 140%;

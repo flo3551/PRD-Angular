@@ -4,6 +4,8 @@
     max-width: 100vw;
     background-image: linear-gradient(rgba(70, 70, 70, 0.45), rgba(82, 82, 82, 0.45)),
                       url("../../../assets/img-banniere2.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* text */
     text-align: center;
     h1, p, .btn {
