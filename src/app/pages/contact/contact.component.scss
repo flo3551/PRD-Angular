@@ -1,5 +1,13 @@
 .row-block-infos {
     div.block-infos {
+        /** TRANSITION EFFECT **/
+        // width: 100px;
+        // height: 100px;
+        // background-color: #111;
+        // -webkit-transition: -webkit-transform .8s ease-in-out;
+        // -ms-transition: -ms-transform .8s ease-in-out;
+        // transition: transform .8s ease-in-out;  
+
         padding: 2%;
         height: 25vh;
         justify-content: center;
@@ -8,15 +16,6 @@
         background-color: #e3e8f1;
         .svg-block img {
             height: 7vh;
-            &:hover {
-                // filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
-                -webkit-transform: rotate(45deg);
-                -moz-transform: rotate(45deg);
-                -ms-transform: rotate(45deg);
-                -o-transform: rotate(45deg);
-                transform: rotate(45deg);
-                display: inline-block;
-            }
         }
         .label-block-infos {
             font-size: 120%;
@@ -26,15 +25,6 @@
     div.block-infos:hover {
         .svg-block img {
             height: 9vh;
-            &:hover {
-                // filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
-                -webkit-transform: rotate(45deg);
-                -moz-transform: rotate(45deg);
-                -ms-transform: rotate(45deg);
-                -o-transform: rotate(45deg);
-                transform: rotate(45deg);
-                display: inline-block;
-            }
         }
         .label-block-infos {
             font-size: 140%;
@@ -68,10 +58,11 @@ body{
 .contact-form form{
     padding: 14%;
 }
-// .contact-form form .row{
-//     margin-bottom: -7%;
-// }
+.contact-form form .row{
+    margin-bottom: -7%;
+}
 .contact-form h2 {
+    font-size: 46px;
     margin-bottom: 5%;
     margin-top: -10%;
     text-align: center;
