@@ -1,9 +1,11 @@
-app-navbar {
-    background-color: #6610f2ba;
+.navbar {
+    box-shadow: 0 4px 6px -6px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 4px 6px -6px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 4px 6px -6px rgba(255, 255, 255, 0.5);
 }
-
 .nav-item {
-    font-family: 'Corben', Georgia, Times, serif;
-    font-size: 22px;
-    padding-right: 16px;
+    padding: 0 20px 0 20px;
+    .nav-link {
+        font-size: 21px !important;
+    }
 }

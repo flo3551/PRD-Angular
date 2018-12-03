@@ -1,6 +1,11 @@
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/_mixins.scss";
+
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url("assets/img/stripes-light.png");
+    // background-image: url("assets/img/stripes-light.png");
+    background-color: rgb(171, 183, 183);
 }
 p, span, h3 {
     font-family: 'Lekton', Helvetica, Arial, sans-serif;
