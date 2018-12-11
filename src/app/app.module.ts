@@ -11,6 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { PrestationsComponent } from './pages/prestations/prestations.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   { path: 'realisations', component: RealisationsComponent },
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     ContactComponent,
     LandingComponent,
     PrestationsComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     RouterModule.forRoot(

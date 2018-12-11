@@ -6,7 +6,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     height: fit-content;
-    background-color: rgb(102, 98, 98);
+    background-color: rgb(162, 162, 162);//rgb(102, 98, 98);
     border: 1px ridge rgb(27, 27, 27);
     section {
         padding: 40px 25px 40px 25px;
@@ -15,18 +15,20 @@
             padding-top: 30px;
             overflow: hidden;
         }
+        p {
+            padding-top: 10px;
+        }
         h1 {
             margin-bottom: 20px;
-            color: rgb(60, 14, 61);
             font-size: 35px;
-            padding-bottom: 15px; // letter-spacing: 1.5px;
+            padding-bottom: 15px;
             &::after { // BORDER UNDER TITLE
                 content: "";
                 text-align: center;
                 display: block;
                 margin: 0 auto;
                 /* This will center the border. */
-                width: 50%;
+                width: 75%;
                 padding-top: 20px;
                 border-bottom: 1px solid black;
             }
@@ -38,8 +40,10 @@
                 }
             }
             &.titre-right {
-                min-width: 100%;
+                // min-width: 100%;
                 @include media-breakpoint-up(md) {
+                    width: fit-content;
+                    text-align: right;
                     &::after {
                         float: right;
                     }

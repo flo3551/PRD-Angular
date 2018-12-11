@@ -1,0 +1,103 @@
+.ft-copyright {
+    background-color: #000a1f;
+    border-top: 1px solid #121d6d;
+    display: flex;
+}
+
+.footer-top {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(25, 52, 132, .64);
+}
+img.logo {
+    padding-top: 20px;
+}
+
+h5.ft-text-title {
+    color: #fff;
+}
+
+h4 {
+    &.ft-text-title {
+        color: #fff;
+        margin: 20px 0 10px;
+        font-weight: 700;
+        text-align: center;
+    }
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+h6.ft-desp {
+    color: #FFF;
+    padding: 2px;
+}
+
+i.fa-phone,
+i.fa-envelope-o {
+    padding: 3px;
+}
+
+i.fa-envelope-o {
+    padding: 4px;
+}
+
+.border-left {
+    border-left: dotted #ddd 1px;
+}
+
+.footer-links {
+    margin-top: 30px !important;
+    a {
+        margin: 8px !important;
+    }
+}
+
+a.mail,
+a.contact {
+    width: 180px;
+    padding: 5px;
+    border: 1px rgb(57, 0, 133) solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a.mail:hover,
+a.contact:hover {
+    background-color: rgb(57, 0, 133);
+    box-shadow: 0px 5px 10px rgba(83, 1, 131, 0.4);
+}
+
+footer p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.text-pp-crt,
+.text-pp-crt-rg {
+    color: #FFFFFF;
+}
+
+.developer {
+    text-align: center;
+}
+
+a.page-links {
+    color: #FFF;
+}
+
+i.develop {
+    border: 1px red dotted;
+}
+
+.developer b {
+    color: red;
+}

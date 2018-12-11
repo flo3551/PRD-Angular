@@ -1,4 +1,11 @@
-app-header {
-    z-index: -1;
-    position: absolute;
+app-root {
+    position: relative;
+    app-header {
+        z-index: -1;
+        position: absolute;
+    }
+    app-footer {
+        position: absolute;
+        bottom: 0;
+    }
 }
