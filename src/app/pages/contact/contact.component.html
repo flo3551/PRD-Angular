@@ -1,93 +1,126 @@
-<div class="container">
-<div class="row row-block-infos">
-  <div class="col-md-3 col-sm-12 block-infos pt-3">
-    <div class="row justify-content-center">
-      <div class="svg-block">
-        <img src="/assets/svg/map-marker.svg">
-      </div>
-    </div>
-    <div class="row justify-content-center pt-4">
-      <span class="label-block-infos">
-        4 Chemins des peupliers
-      </span>
-      <span class="label-block-infos">
-        33570 Sainte Eulalie
-      </span>
-    </div>
-  </div>
-  <div class="col-md-3 col-sm-12 block-infos pt-4">
-    <div class="row justify-content-center">
-      <div class="svg-block">
-        <img src="/assets/svg/phone.svg">
-      </div>
-    </div>
-    <div class="row justify-content-center pt-4">
-      <span class="label-block-infos">
-        06.86.34.92.25
-      </span>
-    </div>
-  </div>
-  <div class="col-md-3 col-sm-12 block-infos pt-4">
-    <div class="row justify-content-center">
-      <div class="svg-block">
-        <img src="/assets/svg/mail.svg">
-      </div>
-    </div>
-    <div class="row justify-content-center pt-4">
-      <span class="label-block-infos">
-        david.rateau@orange.fr
-      </span>
-    </div>
-  </div>
-  <div class="col-md-3 col-sm-12 block-infos pt-4">
-    <div class="row justify-content-center">
-      <div class="svg-block">
-        <img src="/assets/svg/map-marker.svg">
-      </div>
-    </div>
-    <div class="row justify-content-center pt-4">
-      <span class="label-block-infos">
-        Devis gratuit
-      </span>
-    </div>
-  </div>
-</div>
 
-<div class="container rounded contact-form shadow-lg bg-white rounded">
-  <!-- <div class="contact-image float-right">
-    <img src="/assets/img/logo-maitre-artisan.png" alt="rocket_contact" />
+<div class="header-section justify-content-end">
+    <div class="row justify-content-center">
+      <h1 class="col-12">
+          Nous contacter      </h1>
+    </div>
+    <div class="row justify-content-center">
+      <div class="subtitle col-md-6">
+        <!-- col-sm-12 col-md-6 offset-md-6  -->
+        <!-- <p>Nous contacter</p> -->
+        <p> Besoin d'informations, d'un devis gratuit ? Contactez-nous et nous reviendrons vers vous au plus vite !</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<div class="container rounded contact-form shadow-md bg-white rounded">
+  <!-- MAIN TITLE -->
+  <!-- <div class="col-12 text-center pb-5 main-title">
+    <h2>Nous contacter</h2>
+    <p>
+      Besoin d'informations, d'un devis gratuit ? Contactez-nous et nous reviendrons vers vous au plus vite !
+    </p>
   </div> -->
-    <div class="row pb-5">
-      <div class="col-12 text-center">
-        <h2>Nous contacter</h2>
-      </div>
-      <div class="col-12 text-center">
-        <p>Besoin d'informations, d'un devis gratuit ? Contactez-nous et nous reviendrons
-          vers vous au plus vite !</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="form-group">
-          <input type="text" name="txtName" class="form-control" placeholder="Votre nom et prénom *" value="" />
-        </div>
-        <div class="form-group">
-          <input type="email" name="txtEmail" class="form-control" placeholder="Votre email *" value="" />
-        </div>
-        <div class="form-group">
-          <input type="text" name="txtPhone" class="form-control" placeholder="Votre numéro de téléphone *" value="" />
+
+  <div class="row content pt-5">
+    <!-- BLOCK FORM LEFT -->
+    <div class="contact-form-block col-md-8 pr-md-4">
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <input type="text" name="txtFirstName" class="form-control" placeholder="Votre prénom *" value="" />
+          </div>
         </div>
 
+        <div class="col-6">
+          <div class="form-group">
+            <input type="text" name="txtLastName" class="form-control" placeholder="Votre nom *" value="" />
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-group">
+            <input type="email" name="txtEmail" class="form-control" placeholder="Votre email *" value="" />
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-group">
+            <input type="text" name="txtPhone" class="form-control" placeholder="Votre numéro de téléphone *" value="" />
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Votre message *"></textarea>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6">
+      <div class="row justify-content-end">
         <div class="form-group">
-          <textarea class="form-control" placeholder="Votre message *"></textarea>
+          <button type="button" class="button-contact btn-info mt-3"> Envoyer le message </button>
         </div>
       </div>
     </div>
-    <div class="row justify-content-end">
-      <div class="form-group">
-        <button type="button" class="button-contact btn-info"> Envoyer le message </button>
+
+    <!-- BLOCK INFOS RIGHT -->
+    <div class="contact-infos col-md-4 pl-md-4">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <h4>David RATEAU</h4>
+        </div>
+
+        <div class="address col-12">
+          <div class="col-3 icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <div class="col-9 infos">
+            <span>
+              275 chemin Cantelaudet
+            </span>
+            <br>
+            <span>
+              33240 LALANDE DE FRONSAC
+            </span>
+          </div>
+        </div>
+        <div class="phone col-12">
+          <div class="col-3 icon">
+            <i class="fas fa-phone-volume"></i>
+          </div>
+          <div class="col-9 infos">
+            <span>
+              06 86 34 92 25
+            </span>
+          </div>
+        </div>
+        <div class="mail col-12">
+          <div class="col-3 icon">
+            <i class="far fa-envelope"></i>
+          </div>
+          <div class="col-9 infos">
+            <span>
+              david.rateau@orange.fr
+            </span>
+          </div>
+        </div>
+        <div class="horaires col-12">
+          <div class="col-3 icon">
+            <i class="far fa-clock"></i>
+          </div>
+          <div class="col-9 infos">
+            <span> Lundi - Vendredi</span>
+            <br>
+            <span> 8h - 12h / 14h - 18h</span>
+          </div>
+
+        </div>
       </div>
     </div>
+  </div>
+
 </div>

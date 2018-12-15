@@ -1,0 +1,32 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+  <div class="container">
+    <span class="navbar-brand">
+      <img src="assets\img\logo@0,25x.png" width="175" alt="logo PRD DECO">
+    </span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse row justify-content-center" id="navbarToggler">
+      <ul class="navbar-nav">
+        <li class="nav-item active" routerLink="/" data-toggle="collapse" data-target="#navbarToggler">
+          <a class="nav-link">Accueil</a>
+        </li>
+        <li class="nav-item active" routerLink="/prestations" data-toggle="collapse" data-target="#navbarToggler" (click)="onClickPrestationsLink()">
+          <a class="nav-link" rel="noopener">Prestations</a>
+        </li>
+        <li class="nav-item active" routerLink="/realisations" data-toggle="collapse" data-target="#navbarToggler" (click)="onClickRealisationsLink()">
+          <a class="nav-link" rel="noopener">Réalisations</a>
+        </li>
+        <li class="nav-item active" routerLink="/partenaires" data-toggle="collapse" data-target="#navbarToggler" (click)="onClickPartenairesLink()">
+          <a class="nav-link" rel="noopener">Nos partenaires</a>
+        </li>
+        <li class="nav-item active" routerLink="/contact" data-toggle="collapse" data-target="#navbarToggler" (click)="onClickContactLink()">
+          <a class="nav-link" rel="noopener">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a href="tel:+33686349225" class="nav-item contact d-none d-xl-block">06 86 34 92 25</a>
+</nav>

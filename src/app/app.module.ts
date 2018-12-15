@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { RealisationsComponent } from './pages/realisations/realisations.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PartenairesComponent } from './pages/partenaires/partenaires.component';
@@ -11,7 +11,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { PrestationsComponent } from './pages/prestations/prestations.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const appRoutes: Routes = [
   { path: 'realisations', component: RealisationsComponent },
