@@ -1,3 +1,81 @@
-<p>
-  realisations works!
-</p>
+<!-- HEADER -->
+<div class="header-section justify-content-end">
+  <div class="row justify-content-center">
+    <h1 class="col-12">
+      Nos réalisations
+    </h1>
+  </div>
+  <div class="row justify-content-center">
+    <div class="subtitle col-md-6">
+      <p> Peinture, revêtements muraux ou de sols, jetez un oeil à nos chantiers ! </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container gallery-container pt-5">
+  <div class="filter-tab row justify-content-center">
+    <button class="btn filter-btn m-2" (click)="onClickFilterAll()">Tous</button>
+    <button class="btn  filter-btn m-2" (click)="onClickFilterPeinture()">Peinture</button>
+    <button class="btn filter-btn m-2" (click)="onClickFilterSol()">Revêtements de sols</button>
+    <button class="btn filter-btn m-2" (click)="onClickFilterMur()">Revêtements muraux</button>
+    <!-- <button class="btn  filter-btn" data-filter="other">Others</button> -->
+  </div>
+  <div class="tz-gallery row">
+    <div class="row">
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.PEINTURE">
+        <a class="lightbox" href="./assets/img/realisations/image-banniere.jpg">
+          <img src="./assets/img/realisations/image-banniere.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.PEINTURE">
+        <a class="lightbox" href="./assets/img/realisations/img-banniere2.jpg">
+          <img src="./assets/img/realisations/img-banniere2.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.SOL">
+        <a class="lightbox" href="./assets/img/realisations/img-expertise-400x261.jpg">
+          <img src="./assets/img/realisations/img-expertise-400x261.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.MUR">
+        <a class="lightbox" href="./assets/img/realisations/img-resize.png">
+          <img src="./assets/img/realisations/img-resize.png" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.MUR">
+        <a class="lightbox" href="./assets/img/realisations/placeholder1.jpg">
+          <img src="./assets/img/realisations/placeholder1.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.MUR">
+        <a class="lightbox" href="./assets/img/realisations/placeholder2.jpg">
+          <img src="./assets/img/realisations/placeholder2.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.SOL">
+        <a class="lightbox" href="./assets/img/realisations/placeholder3.jpg">
+          <img src="./assets/img/realisations/placeholder3.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.SOL || currentFilter == filter.MUR">
+        <a class="lightbox" href="./assets/img/realisations/placeholder4.jpg">
+          <img src="./assets/img/realisations/placeholder4.jpg" alt="Park">
+        </a>
+      </div>
+
+      <div class="col-sm-6 col-md-4" *ngIf="currentFilter == filter.ALL || currentFilter == filter.SOL">
+        <a class="lightbox" href="./assets/img/realisations/placeholder5.jpg">
+          <img src="./assets/img/realisations/placeholder5.jpg" alt="Park">
+        </a>
+      </div>
+    </div>
+  </div>

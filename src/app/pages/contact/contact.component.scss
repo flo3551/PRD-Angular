@@ -1,16 +1,14 @@
 @import "~bootstrap/scss/_functions.scss";
 @import "~bootstrap/scss/_variables.scss";
 @import "~bootstrap/scss/_mixins.scss";
-
 .header-section {
     /*** Height & Image background ***/
     height: fit-content;
     padding: 10px;
-    max-width: 100vw;
-    // PROD \\
-    background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/prd-deco/assets/img-banniere2.jpg") !important;
+    max-width: 100vw; // PROD \\
+    // background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/prd-deco/assets/img-banniere2.jpg") !important;
     // DEV \\
-    // background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/assets/img-banniere2.jpg") !important;
+    background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/assets/img-banniere2.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 10px 15px 0px rgba(92, 92, 92, 0.3);
@@ -21,8 +19,7 @@
     padding-top: 30px;
     h1,
     p {
-        color: #fff;
-        // color: rgba(255, 253, 253, 0.884);
+        color: #fff; // color: rgba(255, 253, 253, 0.884);
     }
     .subtitle {
         padding-top: 20px;
@@ -36,7 +33,7 @@
 .container {
     margin-top: 60px;
     margin-bottom: 50px;
-    background-color: #a2a2a2 !important;
+    background-color: #375D81 !important;
     color: #fff;
     &.contact-form {
         border: 1px solid rgb(30, 30, 30);
@@ -53,16 +50,18 @@
         }
         .button-contact {
             border-radius: 1rem;
-            padding: 5px;
+            padding: 5px 10px 5px 10px;
             font-weight: bold;
             margin-right: 20px;
             color: #fff;
-            border: none;
-            cursor: pointer;
-            background-color: rgb(57, 0, 133);
+            border-color: #fff;
+            // border: none; // cursor: pointer;
+            // background-color: rgb(57, 0, 133);
+            background-color: rgba(255, 255, 255, 0);
             &:hover {
-                box-shadow: 0px 15px 20px rgba(83, 1, 131, 0.4);
-                color: #fff;
+                box-shadow: 0px 5px 10px rgba(21, 0, 139, 0.4);
+                background-color: #E1E6FA;
+                color: #000;
                 transform: translateY(-3px);
             }
         }
@@ -99,8 +98,8 @@
                 margin-bottom: 20px;
                 .icon {
                     padding-left: 0;
-                    font-size: 30px;
-                    color: rgb(57, 0, 133);
+                    font-size: 30px; // color: rgb(57, 0, 133);
+                    // color: #fff;
                     display: inline-block;
                 }
                 .infos {

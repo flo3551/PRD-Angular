@@ -19,7 +19,7 @@ const appRoutes: Routes = [
   { path: 'partenaires', component: PartenairesComponent},
   { path: 'contact', component: ContactComponent},
   { path: '', component: LandingComponent},
-  { path: 'navbar', component: NavbarComponent}
+  { path: 'navbar', component: NavbarComponent},
   // { path: 'hero/:id',      component: HeroDetailComponent },
   // {
   //   path: 'heroes',

@@ -1,11 +1,12 @@
 .ft-copyright {
-    background-color: #000a1f;
+    background-color: #375D81;
     border-top: 1px solid #121d6d;
     display: flex;
 }
 
 .footer-top {
-    background-color: rgba(255, 255, 255, 0.5);
+    // background-color: rgba(255, 255, 255, 0.5);
+    background-color: #375D81;
     border-bottom: 1px solid rgba(25, 52, 132, .64);
 }
 img.logo {
@@ -63,7 +64,7 @@ a.mail,
 a.contact {
     width: 180px;
     padding: 5px;
-    border: 1px rgb(57, 0, 133) solid;
+    border: 1px #fff solid;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
@@ -74,8 +75,10 @@ a.contact {
 
 a.mail:hover,
 a.contact:hover {
-    background-color: rgb(57, 0, 133);
-    box-shadow: 0px 5px 10px rgba(83, 1, 131, 0.4);
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(83, 1, 131, 0.4);
 }
 
 footer p {
