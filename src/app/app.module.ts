@@ -12,6 +12,7 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { PrestationsComponent } from './pages/prestations/prestations.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NgxImageGalleryModule } from 'ngx-image-gallery';
 
 const appRoutes: Routes = [
   { path: 'realisations', component: RealisationsComponent },
@@ -46,6 +47,7 @@ const appRoutes: Routes = [
     FooterComponent
   ],
   imports: [
+    NgxImageGalleryModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only

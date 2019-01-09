@@ -1,0 +1,74 @@
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/_mixins.scss";
+.header-section {
+    height: 150px;
+    padding: 10px;
+    color: #fff;
+    // PROD \\
+    // background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/prd-deco2/assets/img-banniere2.jpg") !important;
+    // DEV \\
+    background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/assets/img-banniere2.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 15px 0px rgba(92, 92, 92, 0.3);
+    -webkit-box-shadow: 0 10px 15px 0px rgba(92, 92, 92, 0.3);
+    -moz-box-shadow: 0 10px 15px 0px rgba(92, 92, 92, 0.3);
+    /*****/
+    text-align: center;
+    padding-top: 30px;
+    h1 {
+        padding-top: 25px;
+    }
+}
+
+.container {
+    background-color: #a2a2a2;
+    color: #fff;
+    border-radius: 20px !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .presta-interieur-container {
+        border-right: 1px ridge #fff;
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+    .presta-exterieur-container {
+        @include media-breakpoint-down(md) {
+            margin-top: 30px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+    .presta-interieur-list, .presta-exterieur-list {
+        font-size: 20px;
+        padding-left: 30px;
+        .presta-item-detail {
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+    .plus-container {
+        padding: 0;
+        h1 {
+            height: 100px;
+            padding-top: 25px;
+            margin: 30px 0 30px 0;
+            background-color: #6c757d;
+            width: 100%;
+        }
+        .plus-item {
+            img {
+                // width: 150px;
+                border-radius: 100px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
