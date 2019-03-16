@@ -16,12 +16,14 @@
 
 <div class="container gallery-container pt-5">
   <div class="filter-tab row justify-content-center">
-    <button class="btn filter-btn m-2" (click)="onClickFilterAll()">Tous</button>
-    <button class="btn filter-btn m-2" (click)="onClickFilterPeinture()">Peinture</button>
-    <button class="btn filter-btn m-2" (click)="onClickFilterSol()">Revêtements de sols</button>
-    <button class="btn filter-btn m-2" (click)="onClickFilterMur()">Revêtements muraux</button>
+    <div class="row justify-content-center buttons-row">
+      <button class="btn filter-btn m-2" (click)="onClickFilterAll()">Tous</button>
+      <button class="btn filter-btn m-2" (click)="onClickFilterPeinture()">Peinture</button>
+      <button class="btn filter-btn m-2" (click)="onClickFilterSol()">Revêtements de sols</button>
+      <button class="btn filter-btn m-2" (click)="onClickFilterMur()">Revêtements muraux</button>
+    </div>
 
-    <ngx-image-gallery [images]="selectedGallery" [conf]="conf" (onOpen)="galleryOpened($event)"></ngx-image-gallery>
+    <ngx-image-gallery class="d-none d-sm-block" [images]="selectedGallery" [conf]="conf"></ngx-image-gallery>
 
     <div class="tz-gallery row">
       <div *ngFor="let image of selectedGallery" class="col-sm-6 col-md-4">

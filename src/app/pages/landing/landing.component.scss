@@ -7,9 +7,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
     height: fit-content;
-    // background-color: #375D81;
     background-color: #a2a2a2;
-    border: 1px ridge rgb(27, 27, 27);
     section {
         padding: 40px 25px 40px 25px;
         div.col-md-4 {
@@ -43,7 +41,6 @@
                 }
             }
             &.titre-right {
-                // min-width: 100%;
                 @include media-breakpoint-up(md) {
                     width: fit-content;
                     text-align: right;

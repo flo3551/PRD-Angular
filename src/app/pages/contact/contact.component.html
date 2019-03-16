@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <div class="header-section justify-content-end">
   <div class="row justify-content-center">
-    <h1 class="col-12">
+    <h1 class="col-12 title">
       Nous contacter
     </h1>
   </div>
@@ -13,10 +13,10 @@
 </div>
 
 <!-- CONTENT -->
-<div class="container rounded contact-form shadow-md bg-white rounded">
+<div class="container contact-form shadow-md">
   <div class="row content pt-5">
     <!-- BLOCK FORM LEFT -->
-    <div class="contact-form-block col-md-8 pr-md-4">
+    <form class="contact-form-block col-md-8 pr-md-4" action="https://formspree.io/flo3551@gmail.com" method="POST">
       <div class="row">
         <div class="col-6">
           <div class="form-group">
@@ -44,17 +44,16 @@
 
         <div class="col-12">
           <div class="form-group">
-            <textarea class="form-control" placeholder="Votre message *"></textarea>
+            <textarea class="form-control" name="message" placeholder="Votre message *"></textarea>
           </div>
         </div>
       </div>
       <div class="row justify-content-end">
         <div class="form-group">
-          <!-- <button type="button" outline class="button-contact btn-info mt-3"> Envoyer le message </button> -->
-          <button type="button" class="btn button-contact btn-outline-primary mt-3">Envoyer </button>
+          <button type="submit" class="btn button-contact btn-outline-primary mt-3">Envoyer </button>
         </div>
       </div>
-    </div>
+    </form>
 
     <!-- BLOCK INFOS RIGHT -->
     <div class="contact-infos col-md-4 pl-md-4">
@@ -97,7 +96,7 @@
             </span>
           </div>
         </div>
-        <div class="horaires col-12">
+        <!-- <div class="horaires col-12">
           <div class="col-3 icon">
             <i class="far fa-clock"></i>
           </div>
@@ -107,7 +106,7 @@
             <span> 8h - 12h / 14h - 18h</span>
           </div>
 
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

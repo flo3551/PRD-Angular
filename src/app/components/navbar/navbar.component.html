@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg">
   <div class="container">
     <span class="navbar-brand">
-      <img src="assets\img\logo_original.png" width="175" alt="logo PRD DECO">
+      <img src="assets\img\logo_original_blanc.png" width="175" alt="logo PRD DECO">
     </span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
       aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@
           <a class="nav-link">Accueil</a>
         </li>
         <li class="nav-item active" routerLink="/prestations" data-toggle="collzapse" data-target="#navbarToggler" (click)="onClickPrestationsLink()">
-          <a class="nav-link" rel="noopener">Prestations</a>
+          <a class="nav-link" rel="noopener">Savoir-Faire</a>
         </li>
         <li class="nav-item active" routerLink="/realisations" data-toggle="collapse" data-target="#navbarToggler" (click)="onClickRealisationsLink()">
           <a class="nav-link" rel="noopener">Réalisations</a>
@@ -28,5 +28,11 @@
       </ul>
     </div>
   </div>
-  <a href="tel:+33686349225" class="nav-item contact d-none d-xl-block">06 86 34 92 25</a>
+  <button class="btn button btn-warning nav-item contact d-none d-xl-block" (click)="onClickContactButton()">
+      <span>
+        <i class="fas fa-headset"></i>
+        Nous contacter
+      </span>
+    </button>
+  <!-- <a href="tel:+33686349225" class="nav-item contact d-none d-xl-block">06 86 34 92 25</a> -->
 </nav>

@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-// import baguetteBox from 'baguettebox.js';
 import { NgxImageGalleryComponent, GALLERY_CONF, GALLERY_IMAGE } from 'ngx-image-gallery';
 
 export enum Filter {
@@ -8,7 +7,6 @@ export enum Filter {
   MUR = 3,
   SOL = 4
 }
-// const baguetteBox = require('baguettebox.js');
 
 @Component({
   selector: 'app-realisations',

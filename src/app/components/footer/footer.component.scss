@@ -5,16 +5,20 @@
 }
 
 .footer-top {
-    // background-color: rgba(255, 255, 255, 0.5);
     background-color: #375D81;
     border-bottom: 1px solid rgba(25, 52, 132, .64);
 }
 img.logo {
-    width: inherit;
+    width: 60%;
     max-width: fit-content;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
-
+.ft-text-title.text-logo {
+    margin-top: 15px;
+    color: #ffc107;
+    font-size: 1.7rem;
+}
 h5.ft-text-title {
     color: #fff;
 }

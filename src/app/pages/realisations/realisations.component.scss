@@ -4,9 +4,9 @@
     padding: 10px;
     max-width: 100vw;
     // PROD \\
-    // background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/prd-deco2/assets/img-banniere2.jpg") !important;
+    background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/prd-deco3/assets/img-banniere2.jpg") !important;
     // DEV \\
-    background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/assets/img-banniere2.jpg") !important;
+    // background-image: linear-gradient(rgba(70, 70, 70, 0.75), rgba(70, 70, 70, 0.45)), url("/assets/img-banniere2.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 10px 15px 0px rgba(92, 92, 92, 0.3);
@@ -17,7 +17,7 @@
     padding-top: 30px;
     h1,
     p {
-        color: #fff; // color: rgba(255, 253, 253, 0.884);
+        color: #fff;
     }
     .subtitle {
         padding-top: 20px;
@@ -29,8 +29,13 @@
 }
 
 .container {
+    .buttons-row {
+        margin-bottom: 30px;
+    }
+
     ngx-image-gallery {
-        background-color: transparent !important;;
+        background-color: transparent !important;
+        z-index: 99;
     }
 
 
@@ -49,18 +54,16 @@
     }
     .filter-btn {
         font-weight: 600;
-        // color: #637282;
         color: #fff;
     }
     .filter-tab .filter-btn:hover,
     .filter-tab .filter-btn:active,
     .filter-tab .filter-btn.active {
-        background-color: #fa6262;
+        background-color: #183152;
         color: #fff;
-        box-shadow: 0 8px 25px rgba(250, 98, 98, 0.55);
+        box-shadow: 0 8px 25px rgba(50, 68, 128, 0.55);
     }
     &.gallery-container {
-        background-color: #375D81;
         color: #35373a;
         min-height: 100vh;
         border-radius: 20px;

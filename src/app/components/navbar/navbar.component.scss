@@ -2,9 +2,10 @@
     box-shadow: 0 4px 6px -6px rgba(255, 255, 255, 0.5);
     -webkit-box-shadow: 0 4px 6px -6px rgba(255, 255, 255, 0.5);
     -moz-box-shadow: 0 4px 6px -6px rgba(255, 255, 255, 0.5);
-
     background-color: #183152;
-    // background-color: #6c757d;
+    .container {
+        background-color: #183152;
+    }
 }
 
 .nav-item {
@@ -13,20 +14,40 @@
         font-size: 20px !important;
     }
     &.contact {
-        padding: 5px;
-        // border: 1px rgb(57, 0, 133) solid;
-        border: 1px #fff solid;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 5px;
-        color: #FFF;
-        text-decoration: none;
-        font-size: 15px;
-        &:hover {
-            background-color: #fff;
-            color: #000;
-            font-weight: bold;
-            box-shadow: 0px 2px 5px rgba(83, 1, 131, 0.4);
+        font-weight: bold;
+        // width: 210px;
+        // margin-top: 20px;
+        span {
+            .fas {
+                font-size: 15px;
+            }
         }
+        // height: 45px;
+        padding: 5px;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+    }
+    &.contact {
+        // padding: 5px;
+        // border: 1px #fff solid;
+        // padding-left: 15px;
+        // padding-right: 15px;
+        // border-radius: 5px;
+        // color: #FFF;
+        // text-decoration: none;
+        // font-size: 15px;
+        // &:hover {
+        //     background-color: #fff;
+        //     color: #000;
+        //     font-weight: bold;
+        //     box-shadow: 0px 2px 5px rgba(83, 1, 131, 0.4);
+        // }
     }
 }
